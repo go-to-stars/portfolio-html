@@ -63,7 +63,7 @@
                   class="contact_lynk"
                   target="_blank"
                   rel="noreferrer noopener"
-                  >www.linkedin.com</a
+                  >linkedin.com</a
                 >
               </li>
               <li class="contact_list_item">
@@ -127,13 +127,16 @@
             <h3 class="sidebar_title">Soft Skills</h3>
             <ul class="soft_skills_list">
               <li class="soft_skills_item">
-                <span class="soft_skills_text">Scrum</span>
+                <span class="soft_skills_text">Responsibility</span>
               </li>
               <li class="soft_skills_item">
-                <span class="soft_skills_text">Agile</span>
+                <span class="soft_skills_text">Attention to detail</span>
               </li>
               <li class="soft_skills_item">
-                <span class="soft_skills_text">GTD</span>
+                <span class="soft_skills_text">High Analytics Skills</span>
+              </li>
+              <li class="soft_skills_item">
+                <span class="soft_skills_text">Critical thinking</span>
               </li>
               <li class="soft_skills_item">
                 <span class="soft_skills_text">Teamwork</span>
@@ -158,6 +161,20 @@
                 <span class="soft_skills_text">Russian - Native</span>
               </li>
             </ul>
+          </div>
+
+          <!--about Motivation content-->
+          <div class="motivation">
+            <h3 class="sidebar_title">Motivation</h3>
+            <!-- <button type="button" class="motivation-btn" data-modal-open>
+              Cover letter
+            </button> -->
+            <p class="motivation-btn" data-modal-open>Cover letter</p>
+            <!-- <ul class="soft_skills_list">
+              <li class="soft_skills_item">
+                <span class="soft_skills_text">English - Elementary</span>
+              </li>
+            </ul> -->
           </div>
         </aside>
         <!--about Projects content-->
@@ -324,8 +341,8 @@
             </p>
             <ul class="work_list">
               <li class="work_list_item">Website programming: HTML, CSS, JS</li>
-              <li class="work_list_item">Inkscape design .</li>
-              <li class="work-list-item">Communication with clients</li>
+              <li class="work_list_item">Inkscape design</li>
+              <li class="work_list_item">Communication width clients</li>
             </ul>
           </div>
 
@@ -373,7 +390,7 @@
         <!--about Education content-->
         <div class="edukation">
           <h3 class="title">Education</h3>
-          <ul class="ed">
+          <ul class="edukation_list">
             <li class="list">
               <h4 class="edukation_position">IT School GoIT</h4>
               <h4 class="edukation_specialty">Fullstack Developer</h4>
@@ -385,6 +402,59 @@
           </ul>
         </div>
       </div>
+
+      <!-- about modal window -->
+      <div class="modal-backdrop is-hidden" data-modal>
+        <div class="modal-window">
+          <button
+            class="modal-window-close-button"
+            type="button"
+            data-modal-close
+          >
+            <svg class="modal-window-close-button-icon" width="8" height="8">
+              <use href="img/icons.svg#close-button"></use>
+              <!-- <use href="img/close-button.svg"></use> -->
+            </svg>
+          </button>
+          <div class="head-letter">
+            <p class="head-letter-adress">
+              John Smith<br />
+              HR Manager ABC Company<br />
+              456 Workplace Lane Anywhere,<br />
+              USA 33333 Dear Mr. Smith:
+            </p>
+            <p class="head-letter-position">
+              123 Address Street Anywhere,<br />
+              USA 33333 September 10,<br />
+              2022
+            </p>
+          </div>
+          <p class="letter">
+            As a first-generation university student, I am looking for a
+            position that will enable me to pay my tuition while making
+            allowances for my class schedule. When I saw your job listing for a
+            weekend Customer Service Representative on the campus information
+            board, I felt that we would be a perfect fit for each other’s needs.
+            While my on-the-job experience is limited, I have a great deal of
+            experience in dealing with customers. Throughout my teenage years, I
+            have helped out in the family business, a small convenience and
+            souvenir store at the heart of a tourist district. My duties there
+            were often public-facing, arranging items for sale and assisting
+            customers in finding what they needed. I always did my best to help
+            customers leave with smiles on their faces, even going above and
+            beyond what might be expected. This resulted in many 5-star reviews
+            for the business on Tripadvisor and Google. Thank you for your
+            consideration. I’d be happy to speak with you in person or via phone
+            to discuss the position and my qualifications further.
+          </p>
+          <p class="letter-signature">
+            With gratitude: <br />
+            Raul Ascencio
+          </p>
+        </div>
+      </div>
+      <!-- /modal window -->
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>
