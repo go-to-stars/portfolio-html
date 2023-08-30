@@ -1003,7 +1003,7 @@ ol {
 }
 
 .letter {
-  height: 80vh;
+  max-height: 80vh;
 
   overflow-y: auto;
   /* margin-right: calc(-1 * (100vw - 100%)); */
