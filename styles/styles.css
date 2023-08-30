@@ -1003,13 +1003,10 @@ ol {
 }
 
 .letter {
-  overflow-y: auto;
+  height: 80vh;
 
+  overflow-y: auto;
   /* margin-right: calc(-1 * (100vw - 100%)); */
-}
-.let {
-  height: 100%;
-  /* padding: 0 calc(20px - (94vw - 100%)) 0 0; */
 }
 
 .letter-text {
